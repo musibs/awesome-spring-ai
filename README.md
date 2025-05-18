@@ -17,8 +17,13 @@ A curated list of awesome resources, tools, tutorials, and projects for building
         - [General Playlists](#general-playlists)
     - [Workshops](#workshops)
 - [Code & Examples](#code--examples)
+    - [Comprehensive Example Collections](#comprehensive-example-collections)
     - [Code Examples](#code-examples)
-    - [Demos](#demos)
+    - [UI Clients](#ui-clients)
+    - [CLI Applications](#cli-applications)
+    - [Extensions and Forks](#extensions-and-forks)
+    - [Development Tools](#development-tools)
+    - [Model Context Protocol](#model-context-protocol)
 - [Community](#community)
     - [Who to Follow](#who-to-follow)
 - [Tools & Performance](#tools--performance)
@@ -48,6 +53,9 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 
 ### Spring AI Blogs
 
+- [Dynamic Tool Updates in Spring AI's Model Context Protocol](https://spring.io/blog/2025/05/04/spring-ai-dynamic-tool-updates-with-mcp) - How to dynamically update tools available to AI assistants using Spring AI's MCP implementation
+- [Spring AI Prompt Engineering Patterns](https://spring.io/blog/2025/04/14/spring-ai-prompt-engineering-patterns) - Best practices and patterns for effective prompt engineering in Spring AI applications
+- [Agentic AI is the future! Agentic AI is now!](https://spring.io/blog/2025/01/21/spring-ai-agentic-patterns) - Exploring agentic patterns in Spring AI for building autonomous AI systems
 - [Leverage the Power of 45k, free, Hugging Face Models with Spring AI and Ollama](https://spring.io/blog/2024/10/22/leverage-the-power-of-45k-free-hugging-face-models-with-spring-ai-and-ollama)
 - [Supercharging Your AI Applications with Spring AI Advisors](https://spring.io/blog/2024/10/02/supercharging-your-ai-applications-with-spring-ai-advisors)
 - [Spring AI with NVIDIA LLM API](https://spring.io/blog/2024/08/20/spring-ai-with-nvidia-llm-api)
@@ -90,23 +98,31 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 
 #### Talks & Videos
 
-- [Spring AI: Seamlessly Integrating AI into Your Enterprise Java Applications](https://youtu.be/kfRyY0wsZHM?si=qzIshk0GJqVTyrNm)
-- [Spring AI Is All You Need](https://youtu.be/vuhMti8B5H0?si=qhRVLh4-EaUhm9oe)
-- [Introducing Spring AI](https://youtu.be/umKbaXsiCOY?si=FbqCtLIOgbihm6b6)
-- [Spring AI at Spring.IO Keynotes](https://youtu.be/XUz4LKZx83g?t=2940)
-- [Spring Tips: Spring AI](https://www.youtube.com/watch?v=aNKDoiOUo9M)
-- [Overview of Spring AI @ Devoxx 2023](https://www.youtube.com/watch?v=7OY9fKVxAFQ)
-- [Introducing Spring AI • Add Generative AI to your Spring Applications](https://www.youtube.com/watch?v=1g_wuincUdU)
-- [Introducing Spring AI by Christian Tzolov / Mark Pollack @ Spring I/O 2024](https://www.youtube.com/watch?v=umKbaXsiCOY)
-- [Bootiful Artificial Intelligence • Josh Long, Mark Pollack & Rod Johnson](https://www.youtube.com/watch?v=N4ptoEo5gxY)
-- [Spring AI Is All You Need • Christian Tzolov • GOTO 2024](https://www.youtube.com/watch?v=vuhMti8B5H0)
-- [Bringing GenAI to the Modern Enterprise. A production use-case. In Serverless Java !! • Dan Dobrin • Devoxxx Belgium 2024](https://devoxx.be/talk/?id=8188)
+- [What's New in Spring AI M4 • Josh Long](https://www.youtube.com/watch?v=6fYjOTVTvOc) - February 2025
+- [Intelligent Applications with Spring AI • Patrick Baumgartner @ JFokus 2025](https://www.youtube.com/watch?v=NBa2nuxqEJw) - February 2025
+- [Spring Boot and Vaadin with Spring AI MCP • Marcus Hellberg](https://twitter.com/marcushellberg/status/1886678718200078609) - February 2025
+- [Prompt Engineering with Spring AI • Josh Long on Christian Tzolov's Review](https://www.youtube.com/shorts/B1dan9IWph0) - April 2025
+- [Spring AI Deep Dive • Mark Pollack & Josh Long @ Devnexus](https://youtu.be/uPWebxgEwlE?si=JprirPQzuQdefyRe) - April 2025
+- [Spring AI Course • freeCodeCamp](https://www.youtube.com/watch?v=9Crrhz0pm8s) - December 2024
+- [Building Agents with AWS: Complete Tutorial • Josh Long & James Ward](https://www.youtube.com/watch?v=Y291afdLroQ) - November 2024
+- [Supercharging your AI Applications with Spring AI Advisors • Spring Team](https://spring.io/blog/2024/10/02/supercharging-your-ai-applications-with-spring-ai-advisors) - October 2024
+- [Spring AI Is All You Need • Christian Tzolov • GOTO Amsterdam 2024](https://www.youtube.com/watch?v=vuhMti8B5H0) - June 2024
+- [Introducing Spring AI by Christian Tzolov / Mark Pollack @ Spring I/O 2024](https://www.youtube.com/watch?v=umKbaXsiCOY) - May 2024
+- [Bringing GenAI to the Modern Enterprise. A production use-case. In Serverless Java !! • Dan Dobrin • Devoxx Belgium 2024](https://devoxx.be/talk/?id=8188) - May 2024
+- [Bootiful Artificial Intelligence • Josh Long, Mark Pollack & Rod Johnson @ SpringOne 2024](https://www.youtube.com/watch?v=N4ptoEo5gxY) - January 2024
+- [Spring AI: Seamlessly Integrating AI into Your Enterprise Java Applications](https://youtu.be/kfRyY0wsZHM?si=qzIshk0GJqVTyrNm) - December 2023
+- [Overview of Spring AI @ Devoxx 2023](https://www.youtube.com/watch?v=7OY9fKVxAFQ) - November 2023
+- [Spring Tips: Spring AI](https://www.youtube.com/watch?v=aNKDoiOUo9M) - October 2023
+- [Introducing Spring AI • Add Generative AI to your Spring Applications](https://www.youtube.com/watch?v=1g_wuincUdU) - October 2023
+- [Spring AI at Spring.IO Keynotes](https://youtu.be/XUz4LKZx83g?t=2940) - October 2023
 
 #### General Playlists
 
 - [Craig Walls' Spring AI Playlist](https://www.youtube.com/watch?v=1g_wuincUdU&list=PLH5OU4wXVJc9aECkMUVPCi8g3pzs8pZ3E)
 - [Dan Vega's Playlist](https://www.youtube.com/playlist?list=PLZV0a2jwt22uoDm3LNDFvN6i2cAVU_HTH)
 - [Devoxx Playlist](https://www.youtube.com/@DevoxxForever)
+- [Telusko Spring AI Tutorial Playlist](https://www.youtube.com/playlist?list=PLsyeobzWxl7qJSZcMaN18c5l-k2n1FWHx) - Comprehensive tutorial series covering Spring AI implementation with OpenAI, Anthropic, and Ollama integration
+- [AI - Artificial Intelligence Playlist](https://www.youtube.com/playlist?list=PL41m5U3u3wwnzJMaMaSwKWa_CGyG3jY0X) - Collection of videos covering Spring AI and general artificial intelligence concepts and implementations
 
 ### Workshops
 
@@ -117,28 +133,68 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 
 ## Code & Examples
 
+### Comprehensive Example Collections
+
+- [Spring AI Samples by Thomas Vitale](https://github.com/ThomasVitale/llm-apps-java-spring-ai) - Extensive collection of samples showing how to build Java applications powered by Generative AI and Large Language Models (LLMs). Includes examples for different AI models, RAG implementations, and various Spring AI features.
+
+- [Spring AI Examples by Craig Walls](https://github.com/habuma/spring-ai-examples) - Comprehensive repository with dozens of examples covering all major Spring AI capabilities, model integrations, and implementation patterns. Created by the author of "Spring AI in Action".
+
+- [Spring AI Showcase by Piotr Minkowski](https://github.com/piomin/spring-ai-showcase) - Modular demo project showcasing multiple Spring AI features including prompt templates, chat memory, structured output, function calling, RAG with Pinecone vector store, and image models. Supports multiple AI providers (OpenAI, Mistral, Ollama, Azure OpenAI) with profile-based configuration.
+
 ### Code Examples
 
-- [Flight Booking Assistant](https://github.com/tzolov/playground-flight-booking) - Spring AI powered expert system demo
-- [Spring AI Chat Bot CLI](https://github.com/tzolov/spring-ai-cli-chatbot) - chatbot with Retrieval-Augmented Generation (RAG) and conversational memory capabilities
-- [Spring AI Samples (community driven) Thomas Vitale](https://github.com/ThomasVitale/llm-apps-java-spring-ai) - Samples showing how to build Java applications powered by Generative AI and Large Language Models (LLMs)
-- [spring-ai-examples - (community driven) Craig Walls ](https://github.com/habuma/spring-ai-examples)
-- [Spring AI Zero to Hero](https://github.com/spring-projects/spring-ai)
-- [Dan's Spring AI Workshop](https://github.com/danvega/spring-ai-workshop)
-- [Spring AI Powered Local CLI Chat Bot](https://github.com/JM-Lab/spring-ai-local-cli-chatbot) - Experience a fully local, Spring AI-powered CLI chatbot that runs entirely on your machine with no external services required.
-- [Spring AI with QianFan](https://gitee.com/dino9527/spring-ai-examples.git) - Spring AI supports the various AI language models from QianFan. You can interact with QianFan language models and create a multilingual conversational assistant based on QianFan models.
-- - [Hello Flash: OpenAI-Compatible Gemini API](https://github.com/your-repo/hello-flash) - Showcases how to host Google’s Gemini models while maintaining full compatibility with OpenAI’s API. This project enables Java developers to switch from OpenAI to Gemini models seamlessly, using the same client libraries and API calls, requiring only an API key.
+- [Spring PetClinic AI](https://github.com/spring-petclinic/spring-petclinic-ai) - The classic Spring PetClinic application enhanced with a chatbot powered by Spring AI. Demonstrates natural language interaction with application data, allowing users to query and modify pet clinic information through conversation. Supports both OpenAI and Azure OpenAI as LLM providers. Detailed in a two-part blog series on spring.io.
 
+- [Flight Booking Assistant](https://github.com/tzolov/playground-flight-booking) - Spring AI powered expert system demo that simulates a flight booking assistant. Demonstrates how to build domain-specific AI assistants using Spring AI.
 
-### Demos
+- [Spring AI with QianFan](https://gitee.com/dino9527/spring-ai-examples.git) - Spring AI support for various AI language models from QianFan. Shows how to interact with QianFan language models and create a multilingual conversational assistant based on QianFan models.
 
-- [Sergi Almar's RAG Document System](https://twitter.com/sergialmar)
+### UI Clients
+
+- [Spring AI HTMX MCP](https://github.com/habuma/spring-ai-examples/tree/main/spring-ai-htmx-mcp) - Example of building a modern, interactive UI for Spring AI applications using HTMX. Demonstrates how to create a responsive chat interface with minimal JavaScript by leveraging HTMX's server-side rendering capabilities combined with Spring AI's Model Context Protocol.
+
+- [Spring AI Vaadin](https://github.com/spring-ai-community/spring-ai-vaadin) - Integration of Spring AI with Vaadin, a Java web framework for building modern web applications. Provides components and examples for creating rich, interactive AI-powered UIs with pure Java, without requiring JavaScript or HTML knowledge.
+
+- [DocumentGPT](https://github.com/salmar/documentgpt-spring-ai) - A RAG-based document query system by Sergi Almar that allows users to upload documents and chat with them using Spring AI's vector search capabilities. Features a web-based user interface for document upload and interactive querying.
+
+- [Spring AI Playground](https://github.com/JM-Lab/spring-ai-playground) - A web UI designed to make it easy for Java developers to experiment with and integrate AI models. Provides an interactive interface for testing different prompts and models.
+
+### CLI Applications
+
+- [Spring AI Chat Bot CLI](https://github.com/tzolov/spring-ai-cli-chatbot) - Command-line chatbot with Retrieval-Augmented Generation (RAG) and conversational memory capabilities. Demonstrates how to build interactive CLI applications with Spring AI.
+
+- [Spring AI Powered Local CLI Chat Bot](https://github.com/JM-Lab/spring-ai-local-cli-chatbot) - A fully local, Spring AI-powered CLI chatbot that runs entirely on your machine with no external services required. Perfect for offline development or privacy-sensitive applications.
+
+### Extensions and Forks
+
+- [Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba) - An extension of Spring AI that provides an agentic AI framework for Java developers. Adds support for Alibaba Cloud QWen models and Dashscope services, along with additional features like conversation memory, RAG support, and function calling. Maintains compatibility with the Spring AI API while offering specialized capabilities for Alibaba Cloud's AI ecosystem.
+
+### Development Tools
+
+- [Arconia Ollama Dev Service](https://arconia.io/docs/arconia/latest/dev-services/ollama/) - A Spring Boot development service that automatically manages Ollama instances for local LLM development. Simplifies testing and development with local models by handling container lifecycle and configuration. Integrates seamlessly with Spring AI's Ollama support.
+
+### Model Context Protocol
+
+#### Core Resources
+- [MCP Client Documentation](https://docs.spring.io/spring-ai/reference/api/clients/mcp-client.html) - Official documentation for implementing the Model Context Protocol client in Spring AI applications.
+- [MCP Client Examples](https://github.com/spring-projects/spring-ai-examples/tree/main/model-context-protocol) - Comprehensive examples showcasing the Model Context Protocol implementation in Spring AI, including client-server communication, tool discovery, filesystem operations, weather services, web search integration, and dynamic tool updates.
+- [MCP Annotations](https://github.com/spring-ai-community/mcp-annotations) - Annotation-based programming model for implementing MCP servers and clients. Provides a clean, declarative approach to handling MCP operations with reduced boilerplate code. Includes core annotations that depend only on the MCP Java SDK and a Spring AI integration module.
+
+#### MCP Servers for Spring Projects
+- [Spring Batch MCP Server](https://github.com/fmbenhassine/spring-batch-lab/tree/main/sandbox/spring-batch-mcp-server) - An MCP service for introspecting Spring Batch applications, providing AI assistants with access to batch job information.
+- [Spring Cloud Config MCP Server](https://github.com/ryanjbaxter/spring-cloud-config/tree/mcp-server) - An experimental MCP server implementation for Spring Cloud Config that exposes configuration management operations as AI tools, allowing AI assistants to retrieve, update, and refresh application configurations, as well as encrypt/decrypt sensitive values.
+- [JVM Diagnostics MCP](https://github.com/brunoborges/jvm-diagnostics-mcp) - A Model Context Protocol service for obtaining JVM diagnostics, allowing AI assistants to access runtime information about Java applications.
+
+#### Domain-Specific MCP Implementations
+- [Kotlin Crypto Price MCP Server](https://github.com/gaplo917/kotlin-cyrpto-price-spring-mcp-server-demo) - A Kotlin-based Spring AI MCP server that provides real-time cryptocurrency price information from Binance.
+- [Spring AI MCP Database Integration Example](https://github.com/anjeludo/spring-ai-mcp) - A practical implementation of MCP with Spring AI featuring two server applications exposing database operations (person and account data) via @Tool annotations and a client application that discovers and uses these tools with OpenAI models.
+- [GitHub MCP Application](https://x.com/Stephan007/status/1910640447740838356) - A 100% Java GitHub MCP application built on Spring AI by Stephan Janssen, creator of Devoxx.
+- [AWS Sample MCP Demos](https://github.com/aws-samples/Sample-Model-Context-Protocol-Demos) - Collection of examples showing how to use Model Context Protocol with AWS services, including Spring AI implementations.
 
 ## Community
 
 ### Who to Follow
 
-- [Mark Pollack](https://x.com/markpollack)
 - [Christian Tzolov](https://x.com/christzolov)
 - [Josh Long](https://twitter.com/starbuxman)
 - [Dan Vega](https://twitter.com/therealdanvega)
@@ -157,9 +213,6 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 ### Benchmarks
 
 - [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
-
-### UI
-- [Spring AI Playground](https://github.com/JM-Lab/spring-ai-playground) - A web UI designed to make it easy for Java developers to experiment with and integrate AI models.
 
 ## Contributing
 
