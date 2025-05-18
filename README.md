@@ -10,6 +10,8 @@ A curated list of awesome resources, tools, tutorials, and projects for building
     - [Spring AI Blogs](#spring-ai-blogs)
 - [Learning Resources](#learning-resources)
     - [Books](#books)
+    - [Articles](#articles)
+    - [Online Training](#online-training)
     - [Podcasts](#podcasts)
     - [YouTube](#youtube)
         - [Channels](#channels)
@@ -76,25 +78,23 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 - ["Spring AI for Your Organization - GCP Vertex AI Edition" by Muthukumaran Navaneethakrishnan (Leanpub)](https://leanpub.com/springai)
 
 ### Articles
-- [Configuring MCP-Client SSE using Spring AI](https://medium.com/@shaamamanoharan/configuring-mcp-client-sse-in-spring-boot-fb07371c35a7)
 
-### Podcasts
+- [Spring AI in Java Applications](https://medium.com/@oleksandr.klymenko/power-of-ai-in-java-applications-with-spring-ai-62bc2c2aa849) - Vision for enterprise AI integration with Spring (March 2025)
+- [Configuring MCP-Client SSE using Spring AI](https://medium.com/@shaamamanoharan/configuring-mcp-client-sse-in-spring-boot-fb07371c35a7) - Technical guide for configuring Server-Sent Events with MCP clients (February 2025)
+- [Spring AI: A Beginner's Guide (Part 1)](https://medium.com/@kushparsaniya/spring-ai-a-beginners-guide-part-1-8a0ef9c52f21) & [Part 2](https://medium.com/@kushparsaniya/spring-ai-a-beginners-guide-part-2-dff1f353650b) - Multi-part walkthrough of Spring AI fundamentals. Part 1 covers integrating chat models (OpenAI/Ollama) in Spring Boot; Part 2 dives into the Advisor API (December 2024)
+- [Building a Generative AI Application with Spring AI](https://medium.com/@clemsonbradley/building-a-generative-ai-application-with-spring-ai-d58e02a5f1f) - Project-based learning walkthrough for building a complete Spring AI application (November 2024)
+- [Spring Boot Meets AI](https://medium.com/@vermaswati3/how-ai-can-be-integrated-into-a-spring-boot-application-spring-ai-f9795c98f099) - Practical guide to using OpenAI & Anthropic in a diet-planner application (October 2024)
+- [Getting Started with Spring AI (Java Code Geeks)](https://www.javacodegeeks.com/2024/09/getting-started-with-spring-ai.html) - Simple introduction to Spring AI for Java developers (September 2024)
+- [Getting Started with Spring AI](https://medium.com/@arvindcoder/getting-started-with-spring-ai-c5a630b1d7c2) - Introduction to Spring AI's core components and model abstractions (August 2024)
+- [How to Write GenAI Applications with Java (Foojay.io)](https://foojay.io/today/spring-ai-generative-ai-java/) - Comprehensive guide covering RAG and Spring AI templates (July 2024)
 
-- [This Day in AI](https://thisday.in/ai)
-- [Practical AI from Changelog](https://changelog.com/practicalai)
-- [Latent Space](https://www.latent.space/)
-- [Your Undivided Attention](https://www.humanetech.com/podcast)
-- [TWIML (This Week in Machine Learning)](https://twimlai.com/)
-- [Gradient Decent](https://gradientdescent.co/)
-- [Spring Office Hours](https://www.youtube.com/@SpringSourceDev)
-- [Bootiful Podcast](https://bootifulpodcast.fm/)
+### Online Training
 
-### YouTube
+- [Spring AI: Beginner to Guru (Udemy)](https://www.udemy.com/course/spring-ai-beginner-to-guru/?couponCode=CP130525US) - Comprehensive course covering Spring AI fundamentals, integration with various LLM providers, prompt engineering, and building AI-powered applications
+- [Mastering Spring AI: Build AI with Java (Udemy)](https://www.udemy.com/course/mastering-spring-ai-build-ai-with-java/?couponCode=CP130525US) - Advanced course focused on building production-ready AI applications with Spring AI and Java
+- [Spring AI for Beginners: Build GenAI & LLM Apps (Udemy)](https://www.udemy.com/course/spring-ai-for-beginners-build-genai-llm-apps-in-easy-steps/?couponCode=CP130525US) - Step-by-step guide for beginners to create generative AI applications with Spring AI
+- [Spring AI with Neo4j: Knowledge Graph RAG (Udemy)](https://www.udemy.com/course/java-spring-ai-neo4j-openai-knowledge-graph-rag/?couponCode=CP130525US) - Specialized course on implementing Knowledge Graph RAG (Retrieval Augmented Generation) using Spring AI and Neo4j graph database
 
-#### Channels
-
-- [The Neural Maze](https://www.youtube.com/channel/UCaixkLsW_TWWe_0yZNmvPaw)
-- [The Turing Lectures (General AI)](https://www.turing.ac.uk/events/the-turing-lectures)
 
 #### Talks & Videos
 
@@ -107,8 +107,10 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 - [Building Agents with AWS: Complete Tutorial • Josh Long & James Ward](https://www.youtube.com/watch?v=Y291afdLroQ) - November 2024
 - [Supercharging your AI Applications with Spring AI Advisors • Spring Team](https://spring.io/blog/2024/10/02/supercharging-your-ai-applications-with-spring-ai-advisors) - October 2024
 - [Spring AI Is All You Need • Christian Tzolov • GOTO Amsterdam 2024](https://www.youtube.com/watch?v=vuhMti8B5H0) - June 2024
+- [Practical GenAI with Spring AI • Rod Johnson @ YOW! 2024](https://www.youtube.com/watch?v=4oaK3rKHiqs) - June 2024
 - [Introducing Spring AI by Christian Tzolov / Mark Pollack @ Spring I/O 2024](https://www.youtube.com/watch?v=umKbaXsiCOY) - May 2024
 - [Bringing GenAI to the Modern Enterprise. A production use-case. In Serverless Java !! • Dan Dobrin • Devoxx Belgium 2024](https://devoxx.be/talk/?id=8188) - May 2024
+- [Bootiful Spring Boot • Josh Long @ SpringOne 2024](https://www.youtube.com/watch?v=ex7rnzIMmlk) - January 2024
 - [Bootiful Artificial Intelligence • Josh Long, Mark Pollack & Rod Johnson @ SpringOne 2024](https://www.youtube.com/watch?v=N4ptoEo5gxY) - January 2024
 - [Spring AI: Seamlessly Integrating AI into Your Enterprise Java Applications](https://youtu.be/kfRyY0wsZHM?si=qzIshk0GJqVTyrNm) - December 2023
 - [Overview of Spring AI @ Devoxx 2023](https://www.youtube.com/watch?v=7OY9fKVxAFQ) - November 2023
@@ -208,6 +210,24 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 - [Adib Saikali](https://x.com/asaikali)
 - [Clémentine Fourrier](https://x.com/clefourrier)
 
+
+## Podcasts
+
+- [This Day in AI](https://thisday.in/ai)
+- [Practical AI from Changelog](https://changelog.com/practicalai)
+- [Latent Space](https://www.latent.space/)
+- [Your Undivided Attention](https://www.humanetech.com/podcast)
+- [TWIML (This Week in Machine Learning)](https://twimlai.com/)
+- [Gradient Decent](https://gradientdescent.co/)
+- [Spring Office Hours](https://www.youtube.com/@SpringSourceDev)
+- [Bootiful Podcast](https://bootifulpodcast.fm/)
+
+## YouTube
+
+### Channels
+
+- [The Neural Maze](https://www.youtube.com/channel/UCaixkLsW_TWWe_0yZNmvPaw)
+- [The Turing Lectures (General AI)](https://www.turing.ac.uk/events/the-turing-lectures)
 ## Tools & Performance
 
 ### Benchmarks
