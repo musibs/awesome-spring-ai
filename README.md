@@ -212,6 +212,7 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 - [Brian Sam-Bodden](https://x.com/bsbodden)
 - [Adib Saikali](https://x.com/asaikali)
 - [Clémentine Fourrier](https://x.com/clefourrier)
+- [Craig Walls](https://x.com/habuma)
 
 
 ## Podcasts
