@@ -101,7 +101,8 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 
 
 #### Talks & Videos
-
+- [MCP, it's easy as ABC...](https://www.youtube.com/watch?v=cE1h-rC2o2U) - 
+- [Bootiful Spring AI](https://www.youtube.com/watch?v=uPWebxgEwlE) - Thanks to Devnexus for permission to represent this video- March 2025
 - [What's New in Spring AI M4 • Josh Long](https://www.youtube.com/watch?v=6fYjOTVTvOc) - February 2025
 - [Intelligent Applications with Spring AI • Patrick Baumgartner @ JFokus 2025](https://www.youtube.com/watch?v=NBa2nuxqEJw) - February 2025
 - [Spring Boot and Vaadin with Spring AI MCP • Marcus Hellberg](https://twitter.com/marcushellberg/status/1886678718200078609) - February 2025
