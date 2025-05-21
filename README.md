@@ -79,6 +79,7 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 
 - ["Spring AI in Action" by Craig Walls (Manning)](https://www.manning.com/books/spring-ai-in-action)
 - ["Spring AI for Your Organization - GCP Vertex AI Edition" by Muthukumaran Navaneethakrishnan (Leanpub)](https://leanpub.com/springai)
+- ["Beginning Spring AI" by Andrew Lombardi and Joseph Ottinger](https://www.wecodefire.com/p/beginning-spring-ai-released)
 
 ### Articles
 
