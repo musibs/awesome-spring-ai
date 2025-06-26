@@ -29,6 +29,7 @@ A curated list of awesome resources, tools, tutorials, and projects for building
         - [Core Resources](#core-resources)
         - [MCP Servers for Spring Projects](#mcp-servers-for-spring-projects)
         - [Domain-Specific MCP Implementations](#domain-specific-mcp-implementations)
+        - [Other MCP example projects](#other-mcp-example-projects)
 - [Community](#community)
     - [Who to Follow](#who-to-follow)
 - [Tools & Performance](#tools--performance)
@@ -192,7 +193,6 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 #### MCP Servers for Spring Projects
 - [Spring Batch MCP Server](https://github.com/fmbenhassine/spring-batch-lab/tree/main/sandbox/spring-batch-mcp-server) - An MCP service for introspecting Spring Batch applications, providing AI assistants with access to batch job information.
 - [Spring Cloud Config MCP Server](https://github.com/ryanjbaxter/spring-cloud-config/tree/mcp-server) - An experimental MCP server implementation for Spring Cloud Config that exposes configuration management operations as AI tools, allowing AI assistants to retrieve, update, and refresh application configurations, as well as encrypt/decrypt sensitive values.
-- [JVM Diagnostics MCP](https://github.com/brunoborges/jvm-diagnostics-mcp) - A Model Context Protocol service for obtaining JVM diagnostics, allowing AI assistants to access runtime information about Java applications.
 
 #### Domain-Specific MCP Implementations
 - [Kotlin Crypto Price MCP Server](https://github.com/gaplo917/kotlin-cyrpto-price-spring-mcp-server-demo) - A Kotlin-based Spring AI MCP server that provides real-time cryptocurrency price information from Binance.
@@ -200,7 +200,18 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 - [GitHub MCP Application](https://x.com/Stephan007/status/1910640447740838356) - A 100% Java GitHub MCP application built on Spring AI by Stephan Janssen, creator of Devoxx.
 - [AWS Sample MCP Demos](https://github.com/aws-samples/Sample-Model-Context-Protocol-Demos) - Collection of examples showing how to use Model Context Protocol with AWS services, including Spring AI implementations.
 
+#### Other MCP example projects
+- [Cloud Foundry MCP](https://github.com/cpage-pivotal/cloud-foundry-mcp) - Example of using Spring AI's Model Context Protocol (MCP) to build a conversational assistant for Cloud Foundry. Demonstrates how to create a domain-specific AI assistant that can help users with Cloud Foundry operations and troubleshooting.
+- [Spring AI Recipe Finder MCP](https://github.com/timosalm/spring-ai-recipe-finder-mcp) - A recipe finder application built with Spring AI's Model Context Protocol. Demonstrates how to create a domain-specific assistant that can help users find recipes based on ingredients and preferences.
+- [JVM Diagnostics MCP](https://github.com/brunoborges/jvm-diagnostics-mcp) - A Model Context Protocol service for obtaining JVM diagnostics, allowing AI assistants to access runtime information about Java applications.
+- [MCP Time](https://github.com/alexandreroman/mcp-time/tree/main) - A unique MCP example demonstrating the use of MCP managed prompts rather than tools. Shows how to register and implement prompt templates that can be dynamically retrieved and used by MCP clients.
+- [MCP Chess](https://github.com/alexandreroman/mcp-chess/blob/main/README.md) - An MCP server that provides chess functionality for AI assistants. Implements tools to generate chess board images from FEN notation, suggest next moves, and check if moves are legal. Built with Spring Boot and Spring AI.
+- [MCP Location](https://github.com/alexandreroman/mcp-location/tree/main) - An MCP server that provides user location functionality through both tools and prompts. Features two implementation strategies: one using a network API to determine location from IP address, and another using a static configured location. Demonstrates the dual approach of offering both tool-based and prompt-based interfaces.
+
+
 ## Community
+
+- [Spring AI Community](https://github.com/spring-ai-community) - Community-driven repository for sharing knowledge, examples, and resources related to Spring AI.
 
 ### Who to Follow
 
