@@ -85,7 +85,6 @@ Spring AI is a project from the Spring team that provides a familiar and consist
 
 ### Articles
 
-- [Spring AI in Java Applications](https://medium.com/@oleksandr.klymenko/power-of-ai-in-java-applications-with-spring-ai-62bc2c2aa849) - Vision for enterprise AI integration with Spring (March 2025)
 - [Configuring MCP-Client SSE using Spring AI](https://medium.com/@shaamamanoharan/configuring-mcp-client-sse-in-spring-boot-fb07371c35a7) - Technical guide for configuring Server-Sent Events with MCP clients (February 2025)
 - [Spring AI: A Beginner's Guide (Part 1)](https://medium.com/@kushparsaniya/spring-ai-a-beginners-guide-part-1-8a0ef9c52f21) & [Part 2](https://medium.com/@kushparsaniya/spring-ai-a-beginners-guide-part-2-dff1f353650b) - Multi-part walkthrough of Spring AI fundamentals. Part 1 covers integrating chat models (OpenAI/Ollama) in Spring Boot; Part 2 dives into the Advisor API (December 2024)
 - [Building a Generative AI Application with Spring AI](https://medium.com/@clemsonbradley/building-a-generative-ai-application-with-spring-ai-d58e02a5f1f) - Project-based learning walkthrough for building a complete Spring AI application (November 2024)
